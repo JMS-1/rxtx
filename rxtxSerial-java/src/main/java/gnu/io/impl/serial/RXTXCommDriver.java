@@ -60,7 +60,7 @@
  * lists of ports, October 2000. */
 /* Joseph Goldstone <joseph@lp.com> reorganized to support registered ports,
  * known ports, and scanned ports, July 2001 */
-package gnu.io.impl.serial;
+package gnu.io;
 
 import gnu.io.CommPort;
 import gnu.io.CommPortIdentifier;
