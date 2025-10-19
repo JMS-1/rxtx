@@ -1,1 +1,4 @@
 */target/**
+!rxtxSerial-linux-x86_64/target/librxtxSerial-linux-x86_64.so
+**/.git-versioned-pom.xml
+
