@@ -40,6 +40,7 @@
                                 <compilerStartOption>-I${env.JAVA_HOME}/include</compilerStartOption>
                                 <compilerStartOption>-I${env.JAVA_HOME}/include/linux</compilerStartOption>
                                 <compilerStartOption>-Wno-implicit-function-declaration</compilerStartOption>
+                                <compilerStartOption>-DDISABLE_LOCKFILES</compilerStartOption>                                
                             </compilerStartOptions>
                             <linkerStartOptions>
                                 <linkerStartOption>-shared</linkerStartOption>

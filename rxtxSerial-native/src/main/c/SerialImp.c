@@ -4563,7 +4563,6 @@ JNIEXPORT jboolean JNICALL RXTXCommDriver(testRead)(
 	const char *name = (*env)->GetStringUTFChars(env, tty_name, 0);
 	int ret = JNI_TRUE;
 
-	return JNI_TRUE;
 #ifndef WIN32
 	struct termios ttyset;
 	char c;
